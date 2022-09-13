@@ -3,7 +3,7 @@ class ListNode:
     self.val = val
     self.next = next
 
-  def convert_to_binary(self):
+  def convert_to_binary(self, head):
     curr = head
     # start compiling the number by using a string
     num = str(curr.val)
